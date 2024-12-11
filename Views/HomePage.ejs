@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./Partials/Head.ejs') %>
+    <title>Home Page</title>
+  </head>
+  <body style="background-color: black;">
+    <%- include('./Partials/Nav.ejs') %>
+    <%- include('./BlogCards.ejs') %>
+    <div>
+      <!-- <h6>Welcome, <%= user ? user.userName : "to Bloggify!!" %></h6> -->
+       <!-- <%= JSON.stringify(blogs) %> -->
+      <!-- Adjust this based on your user object -->
+    </div>
+    <%- include('./Partials/Scripts.ejs') %>
+  </body>
+</html>
